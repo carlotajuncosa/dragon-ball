@@ -1,0 +1,4 @@
+<div *ngFor="let item of myCharacters">
+    <p>{{item.name}}</p>
+    <button routerLink="/characters/{{item.id}}">ver más</button>
+</div>
